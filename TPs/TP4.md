@@ -17,7 +17,7 @@ Le fichier README devra contenir :
 - Un badge pour CircleCI.
 - Un badge pour la couverture de test.
 
-Nous vous invitons également à enrichir votre README avec un peu de documentation sur votre travail, comme vos choix techniques d’implémentation.
+Nous vous invitons également à enrichir votre README avec un peu de documentation sur votre travail, comme vos choix techniques d’implémentation (à venir).
 
 ## Épisode 3 - Make it work !
 

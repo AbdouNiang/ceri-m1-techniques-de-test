@@ -30,7 +30,7 @@ La première étape de cette intégration continue est de chercher un fichier no
 En vous aidant de la documentation en ligne, vous devez écrire un fichier `circle.yml` avec les contraintes suivantes :
 
 - Branche master uniquement.
-- Environnement Java 8, utilisant le JDK Oracle.
+- Environnement Java 8 ou supérieur.
 - Execution des tests unitaires avec Maven.
 
 Une fois écrit, "commitez” et "pushez" votre fichier `circle.yml` sur votre repository et assurez vous de la bonne exécution de l'intégration continue sur le dashboard de CircleCI.

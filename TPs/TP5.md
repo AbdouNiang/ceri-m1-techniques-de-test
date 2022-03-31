@@ -11,7 +11,7 @@ Pensez également à intégrer dans votre README un badge présentant une versio
 
 Un projet n'est rien sans sa documentation, et c'est encore mieux si elle est générée automatiquement !  
 Configurez votre intégration continue de manière à ce que la [Javadoc](https://www.oracle.com/java/technologies/javase/javadoc-tool.html) soit générée automatiquement et directement publiée au travers de GitHub Pages.  
-[Ce lien](https://circleci.com/blog/deploying-documentation-to-github-pages-with-continuous-integration/) décrit une manière de la faire pour un projet en Python, mais la logique peut simplement être transférée pour un projet Java.  
+[Ce lien](https://circleci.com/blog/deploying-documentation-to-github-pages-with-continuous-integration/) décrit une manière de le faire pour un projet en Python, mais la logique peut simplement être transférée pour un projet Java. Mais si cette méthode ne vous plaît pas libre à vous de faire autrement tant que le résultat est là.  
 Profitez également des rapports générés par checkstyle pour vérifier la couverture de votre Javadoc, ici aussi, on visera un score parfait.
 
 <p align="center" style="color: #ffcb05; font-size: 2rem;">
