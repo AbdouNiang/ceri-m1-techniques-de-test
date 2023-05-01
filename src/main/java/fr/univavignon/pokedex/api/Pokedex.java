@@ -1,34 +1,56 @@
 package fr.univavignon.pokedex.api;
 
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
 public class Pokedex implements IPokedex{
+    IPokemonMetadataProvider metadataProvider;
+    IPokemonFactory pokemonFactory;
+    public Pokedex(IPokemonMetadataProvider metadataProvider, IPokemonFactory pokemonFactory) {
+
+        this.metadataProvider = metadataProvider;
+        this.pokemonFactory = pokemonFactory;
+    }
+    private List<Pokemon> pokemons = new ArrayList<>();
     public int size() {
-        return 0;
+        return pokemons.size();
     }
 
     public int addPokemon(Pokemon pokemon) {
-        return 0;
+        pokemons.add(pokemon);
+        return pokemon.getIndex();
     }
 
     public Pokemon getPokemon(int id) throws PokedexException {
+        if (id < 0 || id > 150){
+            throw new PokedexException("Invalid index");
+        }else{
+            for (Pokemon pokemon:pokemons) {
+                if (pokemon.getIndex() == id){
+                    return pokemon;
+                }
+            }
+        }
+
         return null;
     }
 
     public List<Pokemon> getPokemons() {
-        return null;
+        return  pokemons;
     }
 
     public List<Pokemon> getPokemons(Comparator<Pokemon> order) {
-        return null;
+        List<Pokemon> sorted = new ArrayList<>(pokemons);
+        sorted.sort(order);
+        return sorted;
     }
 
     public Pokemon createPokemon(int index, int cp, int hp, int dust, int candy) {
-        return null;
+        return pokemonFactory.createPokemon(index, cp, hp, dust, candy);
     }
 
     public PokemonMetadata getPokemonMetadata(int index) throws PokedexException {
-        return null;
+        return metadataProvider.getPokemonMetadata(index);
     }
 }
