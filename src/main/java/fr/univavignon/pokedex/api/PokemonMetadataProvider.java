@@ -8,15 +8,10 @@ public class PokemonMetadataProvider implements IPokemonMetadataProvider {
     public static List<PokemonMetadata> pokemonMetadataList;
     public PokemonMetadataProvider() {
         pokemonMetadataList = new ArrayList<>();
-        Random random = new Random();
-        for (int i = 0; i < 150; i++) {
-            String name = "Pokemon" + (i + 1);
-            int attack = random.nextInt(16);
-            int defense = random.nextInt(16);
-            int stamina = random.nextInt(16);
-            PokemonMetadata pokemonmetadata = new PokemonMetadata(i, name, attack, defense, stamina);
-            pokemonMetadataList.add(pokemonmetadata);
-        }
+        PokemonMetadata pokemonMetadata1 = new PokemonMetadata(0, "Bulbizarre", 126, 126, 90);
+        PokemonMetadata pokemonMetadata2 = new PokemonMetadata(133, "Aquali", 186, 168, 260);
+        pokemonMetadataList.add(pokemonMetadata1);
+        pokemonMetadataList.add(pokemonMetadata2);
     }
 
 
