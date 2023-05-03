@@ -1,0 +1,5 @@
+#Wed May 03 12:28:25 CEST 2023
+configuration*?=20474BC1341485DED14F49B5E4AAAA826D2EE95C
+module-resource*?\:checkstyle-xpath-suppressions.xml=67001FC1D4C8DE8F1941541F1BA3DA8667612DD9
+module-resource*?\:checkstyle-suppressions.xml=4205E9A4657EB087D5968A84DFCD072D00B508A8
+C\:\\Users\\Niang\\ceri-m1-techniques-de-test\\src\\main\\java\\fr\\univavignon\\pokedex\\api\\PokedexException.java=1676625370520

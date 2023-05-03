@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2.044" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Niang\ceri-m1-techniques-de-test\target\test-classes;C:\Users\Niang\ceri-m1-techniques-de-test\target\classes;C:\Users\Niang\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Niang\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Niang\.m2\repository\org\mockito\mockito-core\4.11.0\mockito-core-4.11.0.jar;C:\Users\Niang\.m2\repository\net\bytebuddy\byte-buddy\1.12.19\byte-buddy-1.12.19.jar;C:\Users\Niang\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.19\byte-buddy-agent-1.12.19.jar;C:\Users\Niang\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\Niang\.m2\repository\org\mockito\mockito-all\1.9.5\mockito-all-1.9.5.jar;C:\Users\Niang\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\Niang\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Niang\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Niang\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\Niang\AppData\Local\Temp\surefire14106992341081571340\surefirebooter-20230501163723206_3.jar C:\Users\Niang\AppData\Local\Temp\surefire14106992341081571340 2023-05-01T16-37-22_549-jvmRun1 surefire-20230501163723206_1tmp surefire_0-20230501163723206_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Niang\ceri-m1-techniques-de-test\target\test-classes;C:\Users\Niang\ceri-m1-techniques-de-test\target\classes;C:\Users\Niang\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Niang\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Niang\.m2\repository\org\mockito\mockito-core\4.11.0\mockito-core-4.11.0.jar;C:\Users\Niang\.m2\repository\net\bytebuddy\byte-buddy\1.12.19\byte-buddy-1.12.19.jar;C:\Users\Niang\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.19\byte-buddy-agent-1.12.19.jar;C:\Users\Niang\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\Niang\.m2\repository\org\mockito\mockito-all\1.9.5\mockito-all-1.9.5.jar;C:\Users\Niang\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\Niang\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Niang\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Niang\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Niang"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Niang\ceri-m1-techniques-de-test"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Niang\AppData\Local\Temp\surefire14106992341081571340\surefirebooter-20230501163723206_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.18+9-LTS-195"/>
+    <property name="user.name" value="Niang"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Niang\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Niang\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.18"/>
+    <property name="user.dir" value="C:\Users\Niang\ceri-m1-techniques-de-test"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.5.0\;C:\mingw64\bin;C:\Users\Niang\AppData\Local\Programs\Julia-1.8.3\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files (x86)\apache-maven-3.9.1\bin;C:\Users\Niang\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.3\bin;;C:\MinGW\bin\gcc.exe;C:\Users\Niang\AppData\Local\GitHubDesktop\bin;C:\Users\Niang\.dotnet\tools;C:\MinGW\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2023.1\bin;;C:\Users\Niang\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.18+9-LTS-195"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="createPokedex on createPokedex(fr.univavignon.pokedex.api.IPokedexFactoryTest)" classname="fr.univavignon.pokedex.api.IPokedexFactoryTest" time="0.032">
+    <system-out><![CDATA[Usage: <main class> [options] The XML suite files to run
+  Options:
+    -alwaysrunlisteners
+      Should MethodInvocation Listeners be run even for skipped methods
+      Default: true
+    -configfailurepolicy
+      Configuration failure policy (skip or continue)
+    -d
+      Output directory
+    -dataproviderthreadcount
+      Number of threads to use when running data providers
+    -dependencyinjectorfactory
+      The dependency injector factory implementation that TestNG should use.
+    -excludegroups
+      Comma-separated list of group names to  exclude
+    -failwheneverythingskipped
+      Should TestNG fail execution if all tests were skipped and nothing was 
+      run. 
+      Default: false
+    -groups
+      Comma-separated list of group names to be run
+    -includeAllDataDrivenTestsWhenSkipping
+      Should TestNG report all iterations of a data driven test as individual 
+      skips, in-case of upstream failures.
+      Default: false
+    -junit
+      JUnit mode
+      Default: false
+    -listener
+      List of .class files or list of class names implementing ITestListener 
+      or ISuiteListener
+    -methods
+      Comma separated of test methods
+      Default: []
+    -methodselectors
+      List of .class files or list of class names implementing IMethodSelector
+    -mixed
+      Mixed mode - autodetect the type of current test and run it with 
+      appropriate runner
+      Default: false
+    -objectfactory
+      List of .class files or list of class names implementing 
+      ITestRunnerFactory 
+    -overrideincludedmethods
+      Comma separated fully qualified class names of listeners that should be 
+      skipped from being wired in via Service Loaders.
+      Default: false
+    -parallel
+      Parallel mode (methods, tests or classes)
+      Possible Values: [tests, methods, classes, instances, none]
+    -port
+      The port
+    -propagateDataProviderFailureAsTestFailure
+      Should TestNG consider failures in Data Providers  as test failures.
+      Default: false
+    -reporter
+      Extended configuration for custom report listener
+    -spilistenerstoskip
+      Comma separated fully qualified class names of listeners that should be 
+      skipped from being wired in via Service Loaders.
+      Default: <empty string>
+    -suitename
+      Default name of test suite, if not specified in suite definition file or 
+      source code
+    -suitethreadpoolsize
+      Size of the thread pool to use to run suites
+      Default: 1
+    -testclass
+      The list of test classes
+    -testjar
+      A jar file containing the tests
+    -testname
+      Default name of test, if not specified in suitedefinition file or source 
+      code 
+    -testnames
+      The list of test names to run
+    -testrunfactory, -testRunFactory
+      The factory used to create tests
+    -threadcount
+      Number of threads to use when running tests in parallel
+    -threadpoolfactoryclass
+      The threadpool executor factory implementation that TestNG should use.
+    -usedefaultlisteners
+      Whether to use the default listeners
+      Default: true
+    -log, -verbose
+      Level of verbosity
+    -xmlpathinjar
+      The full path to the xml file inside the jar file (only valid if 
+      -testjar was specified)
+      Default: testng.xml
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="getPokemons on getPokemons(fr.univavignon.pokedex.api.IPokedexTest)" classname="fr.univavignon.pokedex.api.IPokedexTest" time="0"/>
+  <testcase name="size on size(fr.univavignon.pokedex.api.IPokedexTest)" classname="fr.univavignon.pokedex.api.IPokedexTest" time="0.001"/>
+  <testcase name="getPokemon on getPokemon(fr.univavignon.pokedex.api.IPokedexTest)" classname="fr.univavignon.pokedex.api.IPokedexTest" time="0"/>
+  <testcase name="addPokemon on addPokemon(fr.univavignon.pokedex.api.IPokedexTest)" classname="fr.univavignon.pokedex.api.IPokedexTest" time="0"/>
+  <testcase name="createPokemon133 on createPokemon133(fr.univavignon.pokedex.api.IPokemonFactoryTest)" classname="fr.univavignon.pokedex.api.IPokemonFactoryTest" time="0.002"/>
+  <testcase name="createPokemon on createPokemon(fr.univavignon.pokedex.api.IPokemonFactoryTest)" classname="fr.univavignon.pokedex.api.IPokemonFactoryTest" time="0"/>
+  <testcase name="getPokemonMetadata on getPokemonMetadata(fr.univavignon.pokedex.api.IPokemonMetadataProviderTest)" classname="fr.univavignon.pokedex.api.IPokemonMetadataProviderTest" time="0.001"/>
+  <testcase name="getPokemonMetadata2 on getPokemonMetadata2(fr.univavignon.pokedex.api.IPokemonMetadataProviderTest)" classname="fr.univavignon.pokedex.api.IPokemonMetadataProviderTest" time="0"/>
+  <testcase name="createTrainer on createTrainer(fr.univavignon.pokedex.api.IPokemonTrainerFactoryTest)" classname="fr.univavignon.pokedex.api.IPokemonTrainerFactoryTest" time="0.003"/>
+</testsuite>
