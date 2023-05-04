@@ -9,4 +9,5 @@ ILSEN-IA-CLA
 ## badge pour la couverture de test
 [![codecov](https://codecov.io/gh/AbdouNiang/ceri-m1-techniques-de-test/branch/master/graph/badge.svg?token=5P6C55424L)](https://codecov.io/gh/AbdouNiang/ceri-m1-techniques-de-test)
 
-![CheckStyle](target/site/bagdes/checkstyle-result.svg)
+##  CheckStyle
+![CheckStyle](target/site/badges/checkstyle-result.svg)
