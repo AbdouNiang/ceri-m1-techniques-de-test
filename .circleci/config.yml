@@ -25,6 +25,9 @@ jobs:
           name: Test
           command: mvn test
       - codecov/upload
+      - run:
+          name: Generate Javadoc
+          command: mvn javadoc:javadoc -DfailOnError=false
  
 
 
