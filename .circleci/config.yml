@@ -28,16 +28,27 @@ jobs:
       - run:
           name: Generate Javadoc
           command: mvn javadoc:javadoc -DfailOnError=false
+      - run:
+          name: Generate and Deploy Javadoc
+          command: |
+            mvn javadoc:javadoc
+            git config --global user.email "abdou.niang@alumni.univ-avignon.fr"
+            git config --global user.name "AbdouNiang"
+            git clone --branch=gh-pages --depth=1 git@github.com:AbdouNiang/ceri-m1-techniques-de-test.git gh-pages
+            rm -rf gh-pages/*
+            cp -R target/site/apidocs/* gh-pages/
+            cd gh-pages
+            git add .
+            git commit -m "Update Javadoc"
+            git push origin gh-pages
  
-
-
-
-
-  
 workflows:
   sample: # This is the name of the workflow, feel free to change it to better match your workflow.
     # Inside the workflow, you define the jobs you want to run.
     #okkk
     jobs:
-      - build-and-test
+      - build-and-test:
+          filters:
+            branches:
+              only: master
      
