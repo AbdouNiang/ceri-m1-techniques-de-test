@@ -25,23 +25,7 @@ jobs:
           name: Test
           command: mvn test
       - codecov/upload
-  docs-deploy:
-    docker:
-      - image: node:8.10.0
-    steps:
-      - checkout
-      - attach_workspace:
-          at: target/site
-      - run:
-          name : Generate and Deploy Javadoc
-          command : |
-            npm install -g --silent gh-pages@2.0.1
-            git config user.email "abdou.niang@alumni.univ-avignon.fr"
-            git config user.name "AbdouNiang"
-     
-      - run:
-          name: deploy doc
-          command: gh-pages --dist target/site/apidocs
+ 
 
 
 
@@ -53,6 +37,4 @@ workflows:
     #okkk
     jobs:
       - build-and-test
-      - docs-deploy:
-          requires:
-            - build-and-test
+     
