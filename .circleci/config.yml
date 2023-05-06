@@ -40,7 +40,7 @@ jobs:
             cd gh-pages
             git add .
             git commit -m "Update Javadoc"
-            git push origin gh-pages
+            git push origin master
  
 workflows:
   sample: # This is the name of the workflow, feel free to change it to better match your workflow.
