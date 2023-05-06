@@ -27,7 +27,7 @@ jobs:
       - codecov/upload
       - run:
           name: Generate Javadoc
-          command: mvn javadoc:javadoc -DfailOnError=false
+          command: mvn site
       - run:
           name: Generate and Deploy Javadoc
           command: |
